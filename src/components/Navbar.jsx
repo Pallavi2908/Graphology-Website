@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/logo.png";
 import Button from "./Button.jsx";
 import Navigation from "./Navigation.jsx";
 
