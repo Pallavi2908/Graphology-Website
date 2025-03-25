@@ -68,13 +68,16 @@ const Upload = () => {
     formData.append("name", "User");
 
     try {
-      const res = await axios.post("http://127.0.0.1:5000/", formData);
+      const res = await axios.post(
+        "https://graphology-ai-model.onrender.com",
+        formData
+      );
       if (res.data.pdf_url) {
         setTimeout(() => {
-          const downloadUrl = `http://127.0.0.1:5000${res.data.pdf_url}`;
+          const downloadUrl = `https://graphology-ai-model.onrender.com${res.data.pdf_url}`;
           window.open(downloadUrl, "_blank"); // Open in new tab
           setLoading(false); // Hide loader after download
-          setSuccessUpload("Report downloaded successfully!"); // Show success message
+          setSuccessUpload("Report downloaded successfully!");
         }, 3000);
       }
     } catch (error) {
