@@ -2,7 +2,7 @@
 # Psyfer- Analyze your personality through your writing
 
 Psyfer is built on Mistral 7B model, aimed at extracting valuable insights of handwriting to generate a rough report on the user's personality. Its fundamentals works on the 9 aspects of handwriting: Loops, garland, baseline angle, top margin, letter size, line spacing, word spacing, pen pressure and slant angle.
--Backend repo link: https://github.com/Pallavi2908/Graphology-AI-Model
+- Backend repo link: https://github.com/Pallavi2908/Graphology-AI-Model
 
 ### Features
 - Upload handwriting in .jpg/.jpeg/.png format
